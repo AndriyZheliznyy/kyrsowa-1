@@ -1,0 +1,197 @@
+            body {
+                background-image: url("background.jpg");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                height: 100vh;
+            }
+            
+            .page-header{
+                height: 35px;
+                width: 800px;
+                padding-top: 10px;
+                padding-bottom: 15px;
+                text-align: center;
+                font-family: 'Passion One', cursive;
+                font-weight: bold;
+                font-size: 50px;
+                color: rgb(242, 247, 243);
+                margin-left:auto;
+                margin-right:auto;
+                margin-bottom: 105px;
+            }
+
+            .both-dates-choose{
+                display: block;
+            }
+
+            .choose-start-date{
+                padding-bottom: 20px;
+                width: 350px;
+                text-align: center;
+                margin-left: 550px;
+                display: inline-block;
+                color: white;
+                font-size: 20px;
+                font-family: 'Passion One', cursive;
+            }
+
+            .choose-end-date{
+                padding-bottom: 20px;
+                width: 350px;
+                text-align: center;
+                display: inline-block;
+                margin-right: 600;
+                color: white;
+                font-size: 20px;
+                font-family: 'Passion One', cursive;
+            }
+
+            .presets{
+                display:block;
+                margin-left: 610px;
+                margin-top: 30px;
+            }
+
+            .presets-text{
+                font-size: 20px;
+                font-family: 'Passion One', cursive;
+                color:white;
+                display: inline-block;
+                width: 300px;
+            }
+
+            .preset-week{
+                display: inline-block;
+            }
+
+            .preset-month{
+                display: inline-block;
+            }
+
+            .preset-week,
+            .preset-month,
+            .coint-in-days,
+            .coint-in-hours,
+            .coint-in-minutes,
+            .coint-in-seconds{
+                background-color: rgb(255, 255, 255);
+                border: rgb(1, 1, 3);
+                border-style: solid;
+                border-width: 1.5px;
+                height: 35px;
+                width: 100px;
+                border-radius: 13px;
+                cursor:pointer;
+                transition: opacity 0.15s;
+                font-family: 'Passion One', cursive;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+
+            .preset-week:hover {
+                opacity: 0.7; }
+            .preset-month:hover {
+                opacity: 0.7; 
+            }
+            .preset-week:hover{
+                opacity:0.7;
+            }
+
+            .preset-month:hover{
+                opacity:0.7;
+            }
+
+            .calculate-in{
+                display:block;
+                margin-left: 610px;
+                margin-top: 50px;
+            }
+
+            .calculate-in-text{
+                font-size: 20px;
+                font-family: 'Passion One', cursive;
+                color:white;
+                display: block;
+            }
+
+            .coint-in-days,
+            .coint-in-hours,
+            .coint-in-minutes,
+            .coint-in-seconds{
+                display: inline-block;
+            }
+
+
+            .coint-in-days:hover{
+                opacity:0.7;
+            }
+
+            .coint-in-hours:hover{
+                opacity:0.7;
+            }
+
+            .coint-in-minutes:hover{
+                opacity:0.7;
+            }
+
+            .coint-in-seconds:hover{
+                opacity:0.7;
+            }
+
+
+            .calculate-and-result{
+                display:block;
+                margin-left: 610px;
+                margin-top: 50px;
+            }
+
+            .calculate {
+                background-color: rgb(15, 97, 65);
+                border: rgb(1, 1, 3);
+                border-style: solid;
+                border-width: 1.5px;
+                height: 35px;
+                width: 100px;
+                border-radius: 13px;
+                cursor:pointer;
+                color: white;
+                transition: opacity 0.15s;
+                font-family: 'Passion One', cursive;
+                font-weight: bold;
+                font-size: 20px;
+                display: inline-block;
+                margin-right: 15px;
+            }
+
+            .calculation-result {
+                border: 1px solid #ddd;
+                border-radius: 1px;
+                height: 30px;
+                width: 130px;
+                padding-right: 15px;
+                padding-top: 10px;
+                text-align: right;
+                margin-right: 6px;
+                margin-top: 10px;
+                font-size: 2.5rem;
+                overflow-x: auto;
+                transition: all .2s ease-in-out;
+                display: inline-block;
+                align-items: bottom;
+            }
+
+            .table{
+                margin-left: 610px;
+                margin-top: 50px;
+                font-family: 'Passion One', cursive;
+                font-weight: bold;
+                font-size: 15px; 
+                color: white;  
+            }
+
+            table,th,td{
+                border: 1px solid white;
+                width: 300px;
+                height: 30px;
+            }
