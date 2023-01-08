@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui, shrink-to-fit=no viewport-fit=cover">
+    <meta charset="UTF-8">
+    <title> Time calculator </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="page-header">Time counter is here, let&#39;s try!</h1>
+
+    <form class="holder" method="POST" onsubmit="summDates(event)">
+
+        <div class="flex flex-between">
+            <div class="choose-date">
+                <p class="stard-end-date-text">Start date:</p>
+                <input type="date" name="dateField" value="" id="input-data-1" required />
+            </div>
+            <div class="choose-date">
+                <p class="stard-end-date-text">End date:</p>
+                <input type="date" name="dateField" value="" id="input-data-2" disabled required />
+            </div>
+        </div>
+
+        <p class="options-title">Days to include</p>
+
+        <div class="options-buttons">
+            <label>
+                <input type="radio" name="option" value="all days" checked>
+                all days
+            </label>
+            <label>
+                <input type="radio" name="option" value="weekdays">
+                weekdays
+            </label>
+            <label>
+                <input type="radio" name="option" value="weekends">
+                weekends
+            </label>
+        </div>
+
+        <p class="options-title">Presets</p>
+
+        <div class="options-buttons">
+            <label>
+                <input type="radio" name="preset" value="week">
+                week
+            </label>
+            <label>
+                <input type="radio" name="preset" value="month">
+                month
+            </label>
+        </div>
+
+        <p class="options-title" style="margin-top: 30px;">Calculate in</p>
+
+        <div class="flex">
+            <button class="coint-in-days">days</button>
+            <button class="coint-in-hours">hours</button>
+            <button class="coint-in-minutes">minutes</button>
+            <button class="coint-in-seconds">seconds</button>
+        </div>
+
+        <div class="calculation-result">Вибірь дату</div>
+    </form>
+
+
+    <div class="holder" style="margin-top: 100px;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Start date</th>
+                    <th>End date</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody id="view-dates">
+                
+            </tbody>
+
+        </table>
+    </div>
+
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
